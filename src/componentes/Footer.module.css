@@ -1,0 +1,13 @@
+.foot {
+    margin-top: 70px;
+    background-color: var(--cor-header);
+    color: var(--cor-letra);
+    padding-bottom: 20px;
+}
+
+.down {
+    margin: 10px 40px;
+    padding-top: 10px;
+    border-top: 2px solid var(--cor-letra);
+
+}

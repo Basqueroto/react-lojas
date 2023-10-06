@@ -1,0 +1,39 @@
+.ret {
+    width: 220px;
+    height: 400px;
+    box-shadow: 5px 9px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ret:hover {
+    scale: 1.05;
+}
+
+.img {
+    height: 300px;
+    overflow: hidden;
+    /*background-image: url("/public/hollow.jpg");*/
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    height: 15px;
+    margin-top: 15px;
+}
+
+.subaixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}

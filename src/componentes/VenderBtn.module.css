@@ -1,0 +1,13 @@
+.btn {
+    background-color: var(--cor-header);
+    color: var(--cor-letra);
+    border: none;
+    border-radius: 4.5px;
+    padding: 2px 5px;
+}
+
+.btn:hover {
+    background-color: var(--cor-letra);
+    color: var(--cor-header);
+    border: 1px solid var(--cor-header);
+}

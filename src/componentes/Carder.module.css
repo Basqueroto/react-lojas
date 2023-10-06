@@ -1,0 +1,26 @@
+.title {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+    font-size: 40px;
+}
+
+.rolar {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+@media (max-width: 1023px) {
+    .rolar {
+        gap: 40px;
+        display: grid;
+        grid-auto-columns: auto;
+    }
+
+
+}

@@ -1,0 +1,39 @@
+.navTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: var(--cor-letra);
+    margin-right: 40px;
+}
+
+.navTodo a {
+    text-decoration: none;
+    color: var(--cor-letra);
+}
+
+.nav {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.nav a:hover {
+    scale: 1.07;
+}
+
+.logo {
+    font-size:20px;
+    margin-left: 70px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons a:hover {
+    cursor: pointer;
+}
